@@ -18,8 +18,8 @@
 - **`/cookies`**: 🍪 upload cookies file.
 - **`/e2t`**: 📝 edit txt file.
 - **`/yt2txt`**: 🗃️ create txt of yt playlist (owner).
-- **`/sudoadd`**: 🎊 add user or group or channel (owner).
-- **`/sudoremove`**: ❌ remove user or group or channel (owner).
+- **`/sudo add`**: 🎊 add user or group or channel (owner).
+- **`/sudo remove`**: ❌ remove user or group or channel (owner).
 - **`/userlist`**: 📜 list of sudo user/group/channel.
 - **`/help`**: 🎉 for help.
 
@@ -29,9 +29,15 @@
 🥳 Pw Without Purchase Txt Extractor Bot [Click Here](https://t.me/PwTxtExtractorBot)
  
 
-## Deploy To Heroku
+## Guide For Heroku Deployment 
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tushar557845/ADVANCE-TXT-UPLOADER)
+
+सर्वप्रथम vars.py file में api id , api hash ,bot token Fill करें।
+उसके बाद heroku में github को connect करके इस repo को conneect कर ले ।
+इसके बाद heroku setting में जाकर फिर से api id , api hash,bot token डालें। और फिर deploy कर दे।
+deploy करने के बाद उसी deploy वाली repo के setting में जाकर buildpack add करके again Deploy करें।
+
+Buildpack - https://github.com/heroku/heroku-buildpack-activestorage-preview
 
 ## Deploy To Koyeb
 
