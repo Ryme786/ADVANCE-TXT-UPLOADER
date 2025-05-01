@@ -5,4 +5,4 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "19259149")) #Replace with your api id
 API_HASH = environ.get("API_HASH", "67e9ed15eb0adf9d3b391311933fa594") #Replace with your api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "7561139321:AAHRcxgoJqlSq7I-1LNx-hmfO7S5TvFAx0A"
+BOT_TOKEN = environ.get("BOT_TOKEN", "7875684141:AAE3J_t2Lk_fvK02G9B1FkO6zjiLwVXomHA"
